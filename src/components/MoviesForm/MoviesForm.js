@@ -10,7 +10,7 @@ function SearchForm(props) {
                     <span className="card-movies__time">{props.time}</span>
                 </div>
                 <img src={props.link} alt="btn-save" className="card-movies__image" />
-                <button className={`usual ${props.btn}`}>Сохранить</button>
+                <button className={`card-movies__btn ${props.btn}`}>Сохранить</button>
             </li>
         </ul>
     );

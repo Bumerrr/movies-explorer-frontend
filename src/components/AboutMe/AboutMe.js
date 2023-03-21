@@ -20,7 +20,12 @@ function AboutMe() {
                             С 2015 года работал в компании «СКБ Контур». После того, как прошёл курс по веб-разработке,
                             начал заниматься фриланс-заказами и ушёл с постоянной работы.
                         </p>
-                        <a className="aboutMe__social" href="https://github.com/Bumerrr" >Github</a>
+                        <a className="aboutMe__social" href="https://github.com/Bumerrr"
+                            target="_blank"
+                            rel="noreferrer"
+                        >
+                            Github
+                        </a>
                     </div>
                     <div>
                         <img className="aboutMe__avatar" alt="аватарка" src={avatar} />

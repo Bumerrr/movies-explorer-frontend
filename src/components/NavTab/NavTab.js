@@ -50,7 +50,7 @@ function NavTab({ isLogined }) {
                 </Link>
               </div>
               <div className="gamburger__wrapper-link-account">
-                <Link to="/profile" className="gamburger__link">
+                <Link to="/profile" className="gamburger__link gamburger__link_type_account">
                   Аккаунт
                 </Link>
               </div>
@@ -62,29 +62,29 @@ function NavTab({ isLogined }) {
               onClick={() => setGamburger((b) => !b)}
             ></button>
           ) : (
-            <div className="mmm">
-              <ul className="header-NavTab-logined">
-                <li className="header-NavTab__li-logined">
+            <div className="header-nagigation__main">
+              <ul className="header-navigation-logined">
+                <li className="header-navigation__li-logined">
                   <Link
                     to="/movies"
-                    className="header-NavTab__link-logined"
+                    className="header-navigation__link-logined"
                   >
                     Фильмы
                   </Link>
                   <Link
                     to="/saved-movies"
-                    className="header-NavTab__link-logined"
+                    className="header-navigation__link-logined"
                   >
                     Сохранённые фильмы
                   </Link>
                 </li>
               </ul>
 
-              <ul className="header-NavTab_type_logined">
-                <li className="header-NavTab__li-logined">
+              <ul className="header-navigation_type_logined">
+                <li className="header-navigation__li-logined">
                   <Link
                     to="/profile"
-                    className="header-NavTab__link-logined header-NavTab__link-logined_type_account"
+                    className="header-navigation__link-logined header-navigation__link-logined_type_account"
                   >
                     Аккаунт
                   </Link>
@@ -94,17 +94,17 @@ function NavTab({ isLogined }) {
           )}
         </>
       ) : (
-        <ul className="header-NavTab">
-          <li className="header-NavTab__li">
-            <Link to="/sign-up" className="header-NavTab__link">
+        <ul className="header-navigation">
+          <li className="header-navigation__li">
+            <Link to="/sign-up" className="header-navigation__link">
               Регистрация
             </Link>
           </li>
 
-          <li className="header-NavTab__li header-NavTab__li_type_signin">
+          <li className="header-navigation__li header-navigation__li_type_signin">
             <Link
               to="/sign-in"
-              className="header-NavTab__link header-NavTab__link_type_signin"
+              className="header-navigation__link header-navigation__link_type_signin"
             >
               Войти
             </Link>

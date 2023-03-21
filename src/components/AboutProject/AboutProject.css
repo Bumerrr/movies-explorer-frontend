@@ -55,21 +55,23 @@
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 17px;
+  line-height: 36px;
   text-align: center;
   margin: 0;
+  height: 36px
 }
 
 .about-project__time-week-2 {
+  height: 36px;
   background-color: #6c7470;
   color: #fff;
   font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 17px;
+  line-height: 36px;
   text-align: center;
-  margin: 0;
+  margin: 0 auto;
 }
 
 .about-project__time-1 {
@@ -124,6 +126,10 @@
 @media screen and (max-width: 580px) {
   .about-project__subtitle {
     width: 350px;
+  }
+
+  .about-project__title-list {
+    display: block;
   }
 }
 

@@ -19,103 +19,103 @@ function MoviesCardList({ saved }) {
     <>
       {saved ? (
         <section className="moviesgallery">
-          <ul className="moviesgallery__main">
+          <div className="moviesgallery__main">
             <MoviesForm
               name='Название фильма'
               time='1ч 42м'
               link={one}
-              btn={'delete'}
+              btn={'card-movies__btn_type_delete'}
             />
             <MoviesForm
               name='Название фильма'
               time='1ч 42м'
               link={one}
-              btn={'delete'}
+              btn={'card-movies__btn_type_delete'}
             />
             <MoviesForm
               name='Название фильма'
               time='1ч 42м'
               link={one}
-              btn={'delete'}
+              btn={'card-movies__btn_type_delete'}
             />
-          </ul>
+          </div>
         </section>
       ) : (
         <section className="moviesgallery">
-          <ul className="moviesgallery__main">
+          <div className="moviesgallery__main">
             <MoviesForm
               name='Название фильма'
               time='1ч 42м'
               link={one}
-              btn={'saved'}
+              btn={'card-movies__btn_type_saved'}
             />
             <MoviesForm
               name='Название фильма'
               time='1ч 42м'
               link={two}
-              btn={'saved'}
+              btn={'card-movies__btn_type_saved'}
             />
             <MoviesForm
               name='Название фильма'
               time='1ч 42м'
               link={three}
-              btn={'usual'}
+              btn={'card-movies__btn'}
             />
             <MoviesForm
               name='Название фильма'
               time='1ч 42м'
               link={four}
-              btn={'usual'}
+              btn={'card-movies__btn'}
             />
             <MoviesForm
               name='Название фильма'
               time='1ч 42м'
               link={five}
-              btn={'usual'}
+              btn={'card-movies__btn'}
             />
             <MoviesForm
               name='Название фильма'
               time='1ч 42м'
               link={six}
-              btn={'saved'}
+              btn={'card-movies__btn_type_saved'}
             />
             <MoviesForm
               name='Название фильма'
               time='1ч 42м'
               link={seven}
-              btn={'saved'}
+              btn={'card-movies__btn_type_saved'}
             />
             <MoviesForm
               name='Название фильма'
               time='1ч 42м'
               link={eight}
-              btn={'usual'}
+              btn={'card-movies__btn'}
             />
             <MoviesForm
               name='Название фильма'
               time='1ч 42м'
               link={nine}
-              btn={'usual'}
+              btn={'card-movies__btn'}
             />
             <MoviesForm
               name='Название фильма'
               time='1ч 42м'
               link={ten}
-              btn={'usual'}
+              btn={'card-movies__btn'}
             />
             <MoviesForm
               name='Название фильма'
               time='1ч 42м'
               link={eleven}
-              btn={'saved'}
+              btn={'card-movies__btn_type_saved'}
             />
             <MoviesForm
               name='Название фильма'
               time='1ч 42м'
               link={twelwe}
-              btn={'usual'}
+              btn={'card-movies__btn'}
             />
-          </ul>
+          </div>
           <div className="moviesgallery__main-button">
             <button className="moviesgallery__button-card-more">Ещё</button>
           </div>

@@ -9,21 +9,27 @@ function Portfolio() {
         <h3 className="aboutMe__title-portfolio">Портфолио</h3>
         <ul className="portfolio__main">
           <li className="portfolio__item">
-            <a className="portfolio__link" href="https://github.com/Bumerrr/how-to-learn">
+            <a className="portfolio__link" href="https://github.com/Bumerrr/how-to-learn"
+              target="_blank"
+              rel="noreferrer">
               <p className="portfolio__link-text">Статичный сайт</p>
               <img alt="стрелка" src={strelka} />
             </a>
           </li>
           <p className="line"></p>
           <li className="portfolio__item">
-            <a className="portfolio__link" href="https://github.com/Bumerrr/russian-travel">
+            <a className="portfolio__link" href="https://github.com/Bumerrr/russian-travel"
+              target="_blank"
+              rel="noreferrer">
               <p className="portfolio__link-text">Адаптивный сайт</p>
               <img alt="стрелка" src={strelka} />
             </a>
           </li>
           <p className="line"></p>
           <li className="portfolio__item">
-            <a className="portfolio__link" href="https://github.com/Bumerrr/react-mesto-api-full">
+            <a className="portfolio__link" href="https://github.com/Bumerrr/react-mesto-api-full"
+              target="_blank"
+              rel="noreferrer">
               <p className="portfolio__link-text">Одностраничное приложение</p>
               <img alt="стрелка" src={strelka} />
             </a>

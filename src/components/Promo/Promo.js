@@ -13,7 +13,10 @@ const Promo = () => {
           <p className="promo__subtitle">
             Листайте ниже, чтобы узнать больше про этот проект и его создателя.
           </p>
-          <a href="https://practicum.yandex.ru/" className="promo__btn">Узнать больше</a>
+          <a href="https://practicum.yandex.ru/" className="promo__btn"
+          target="_blank"
+          rel="noreferrer"
+          >Узнать больше</a>
         </div>
         <img className="promo__logo" src={landinglogo} alt="landing-logo" />
       </div>
