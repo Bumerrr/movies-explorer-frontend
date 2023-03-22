@@ -1,18 +1,7 @@
 import React from "react";
 import "./MoviesCardList.css";
 import MoviesForm from '../MoviesForm/MoviesForm';
-import one from '../../images/1.png';
-import two from '../../images/2.png';
-import three from '../../images/3.png';
-import four from '../../images/4.png';
-import five from '../../images/5.png';
-import six from '../../images/6.png';
-import seven from '../../images/1.png';
-import eight from '../../images/2.png';
-import nine from '../../images/3.png';
-import ten from '../../images/4.png';
-import eleven from '../../images/5.png';
-import twelwe from '../../images/6.png';
+import movie from '../../images/movie.svg';
 
 function MoviesCardList({ saved }) {
   return (
@@ -23,19 +12,19 @@ function MoviesCardList({ saved }) {
             <MoviesForm
               name='Название фильма'
               time='1ч 42м'
-              link={one}
+              link={movie}
               btn={'card-movies__btn_type_delete'}
             />
             <MoviesForm
               name='Название фильма'
               time='1ч 42м'
-              link={one}
+              link={movie}
               btn={'card-movies__btn_type_delete'}
             />
             <MoviesForm
               name='Название фильма'
               time='1ч 42м'
-              link={one}
+              link={movie}
               btn={'card-movies__btn_type_delete'}
             />
           </div>
@@ -46,73 +35,73 @@ function MoviesCardList({ saved }) {
             <MoviesForm
               name='Название фильма'
               time='1ч 42м'
-              link={one}
+              link={movie}
               btn={'card-movies__btn_type_saved'}
             />
             <MoviesForm
               name='Название фильма'
               time='1ч 42м'
-              link={two}
+              link={movie}
               btn={'card-movies__btn_type_saved'}
             />
             <MoviesForm
               name='Название фильма'
               time='1ч 42м'
-              link={three}
+              link={movie}
               btn={'card-movies__btn'}
             />
             <MoviesForm
               name='Название фильма'
               time='1ч 42м'
-              link={four}
+              link={movie}
               btn={'card-movies__btn'}
             />
             <MoviesForm
               name='Название фильма'
               time='1ч 42м'
-              link={five}
+              link={movie}
               btn={'card-movies__btn'}
             />
             <MoviesForm
               name='Название фильма'
               time='1ч 42м'
-              link={six}
+              link={movie}
               btn={'card-movies__btn_type_saved'}
             />
             <MoviesForm
               name='Название фильма'
               time='1ч 42м'
-              link={seven}
+              link={movie}
               btn={'card-movies__btn_type_saved'}
             />
             <MoviesForm
               name='Название фильма'
               time='1ч 42м'
-              link={eight}
+              link={movie}
               btn={'card-movies__btn'}
             />
             <MoviesForm
               name='Название фильма'
               time='1ч 42м'
-              link={nine}
+              link={movie}
               btn={'card-movies__btn'}
             />
             <MoviesForm
               name='Название фильма'
               time='1ч 42м'
-              link={ten}
+              link={movie}
               btn={'card-movies__btn'}
             />
             <MoviesForm
               name='Название фильма'
               time='1ч 42м'
-              link={eleven}
+              link={movie}
               btn={'card-movies__btn_type_saved'}
             />
             <MoviesForm
               name='Название фильма'
               time='1ч 42м'
-              link={twelwe}
+              link={movie}
               btn={'card-movies__btn'}
             />
           </div>

@@ -1,5 +1,5 @@
 import React from "react";
-import landinglogo from "../../images/promo.png";
+import landinglogo from "../../images/promo.svg";
 import "./Promo.css";
 
 const Promo = () => {

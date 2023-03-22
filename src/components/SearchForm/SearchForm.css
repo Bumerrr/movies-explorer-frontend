@@ -54,7 +54,7 @@
 }
 
 .search__form-button_type_find {
-  background-image: url('../../images/icon-find.png');
+  background-image: url('../../images/icon-find.svg');
   border: none;
   background-color: #4285F4;
   right: 4px;

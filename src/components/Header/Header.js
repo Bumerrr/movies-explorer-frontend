@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import Navigation from "../NavTab/NavTab";
-import logo from "../../images/logo.png";
+import logo from "../../images/logo.svg";
 import "./Header.css";
 
 function Header({ isLogined }) {
