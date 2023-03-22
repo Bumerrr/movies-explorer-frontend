@@ -12,17 +12,17 @@ function Portfolio() {
             <a className="portfolio__link" href="https://github.com/Bumerrr/how-to-learn"
               target="_blank"
               rel="noreferrer">
-              <p className="portfolio__link-text">Статичный сайт</p>
-              <img alt="стрелка" src={strelka} />
+              <p className="portfolio__link_type_text">Статичный сайт</p>
+              <img alt="стрелка" src={strelka} className="portfolio__link_type_image" />
             </a>
           </li>
           <p className="line"></p>
           <li className="portfolio__item">
-            <a className="portfolio__link" href="https://github.com/Bumerrr/russian-travel"
+            <a className="portfolio__link" href="https://bumerrr.github.io/russian-travel/index.html"
               target="_blank"
               rel="noreferrer">
-              <p className="portfolio__link-text">Адаптивный сайт</p>
-              <img alt="стрелка" src={strelka} />
+              <p className="portfolio__link_type_text">Адаптивный сайт</p>
+              <img alt="стрелка" src={strelka} className="portfolio__link_type_image" />
             </a>
           </li>
           <p className="line"></p>
@@ -30,8 +30,8 @@ function Portfolio() {
             <a className="portfolio__link" href="https://github.com/Bumerrr/react-mesto-api-full"
               target="_blank"
               rel="noreferrer">
-              <p className="portfolio__link-text">Одностраничное приложение</p>
-              <img alt="стрелка" src={strelka} />
+              <p className="portfolio__link_type_text">Одностраничное приложение</p>
+              <img alt="стрелка" src={strelka} className="portfolio__link_type_image" />
             </a>
           </li>
         </ul>

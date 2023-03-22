@@ -32,10 +32,20 @@
 
 @media screen and (max-width: 768px) {
   .header__container {
-    width: calc(100% - 14px * 2);
+    width: calc(100% - 30px * 2);
   }
 
   .header-navigation__li {
     margin-left: 14px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .header__container {
+    width: calc(100% - 15px * 2);
+  }
+
+  .header-navigation__li {
+    margin-left: 0;
   }
 }

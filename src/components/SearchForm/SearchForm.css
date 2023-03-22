@@ -23,7 +23,6 @@
   height: 60px;
   box-sizing: border-box;
   text-overflow: ellipsis;
-  overflow: hidden;
   margin-bottom: 30px;
   background-color: transparent;
   border: 1.5px solid #AAAAAA;
@@ -58,7 +57,7 @@
   background-image: url('../../images/icon-find.png');
   border: none;
   background-color: #4285F4;
-  right: 13px;
+  right: 4px;
   top: 12px;
   cursor: pointer;
   transition: background-color .3s ease-in;
@@ -98,10 +97,10 @@
   content: '';
   position: absolute;
   background-color: #c7c3c3;
-  top: 6px;
-  left: 6px;
-  width: 8px;
-  height: 8px;
+  top: 2px;
+  left: 3px;
+  width: 16px;
+  height: 16px;
   transition: left .3s;
   border-radius: 50%;
 }
@@ -112,11 +111,11 @@
 
 .search__toggle:checked::after {
   content: '';
-  top: 6px;
-  left: 22px;
+  top: 2px;
+  left: 18px;
   position: absolute;
-  width: 8px;
-  height: 8px;
+  width: 16px;
+  height: 16px;
   background-color: #2BE080;
   border-radius: 50%;
 }
@@ -137,19 +136,22 @@
   .search__toggle-wrapper {
     margin-bottom: 132px;
   }
-}
-
-@media screen and (max-width: 450px) {
   .search__form {
     width: calc(100% - 14px * 2);
     display: block;
   }
+}
 
+@media screen and (max-width: 450px) {
+
+  .search {
+    padding-top: 55px;
+  }
   .search__form-button_type_search {
     display: none;
   }
   .search__form-input {
-    padding: 7px 7px 7px 22px;
+    padding: 6px 7px 2px 22px;
   }
 
   .search__form-input {
@@ -160,5 +162,6 @@
 
   .search__toggle-wrapper {
     margin-bottom: 91px;
+    margin-top: 8px;
   }
 }

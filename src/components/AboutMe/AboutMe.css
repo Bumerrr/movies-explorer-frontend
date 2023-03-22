@@ -1,7 +1,7 @@
 .aboutMe {
   width: 100%;
-  padding-top: 110px;
-  padding-bottom: 125px;
+  padding-top: 100px;
+  padding-bottom: 95px;
 }
 
 .aboutMe__main {
@@ -16,6 +16,7 @@
   line-height: 27px;
   font-size: 22px;
   font-weight: 400;
+  letter-spacing: -0.04em;
 }
 
 .aboutMe__main-profile {
@@ -31,26 +32,28 @@
   font-size: 50px;
   line-height: 58px;
   font-weight: 400;
+  letter-spacing: -0.04em;
 }
 
 .aboutMe__title-old {
   padding: 0;
   margin-top: 18px;
   text-align: left;
+  font-weight: 500;
   font-size: 18px;
   line-height: 20px;
-  font-weight: 500;
 }
 
 .aboutMe__subtitle {
-  width: 100%;
+  width: 68%;
   padding: 0;
   margin-top: 26px;
   margin-bottom: 99px;
   text-align: left;
+  font-weight: 400;
   font-size: 14px;
   line-height: 22px;
-  font-weight: 400;
+
 }
 
 .aboutMe__main-profile {
@@ -86,15 +89,19 @@
     font-size: 40px;
     line-height: 40px;
   }
+
   .aboutMe__title-old {
     font-size: 12px;
     line-height: 18px;
   }
+
   .aboutMe__subtitle {
     width: 350px;
     font-size: 12px;
     line-height: 18px;
+    margin-bottom: 85px;
   }
+
   .aboutMe__avatar {
     width: 255px;
     height: 307px;
@@ -102,18 +109,24 @@
 }
 
 @media screen and (max-width: 768px) {
+
+  .aboutMe {
+    padding-top: 65px;
+    padding-bottom: 90px;
+  }
+
   .aboutMe__main {
     width: calc(100% - 50px * 2);
   }
-}
 
-@media screen and (max-width: 730px) {
   .aboutMe__avatar {
-    width: 240px;
-    height: 292px;
+    height: 307px;
   }
+
   .aboutMe__subtitle {
-    width: 250px;
+    width: 88%;
+    margin-top: 20px;
+    font-weight: 400;
     font-size: 12px;
     line-height: 18px;
   }
@@ -124,23 +137,28 @@
     padding-bottom: 90px;
     padding-top: 90px;
   }
+
   .aboutMe__main-profile {
     flex-direction: column;
     margin-top: 60px;
   }
+
   .aboutMe__avatar {
     order: -1;
     width: 292px;
     height: 352px;
     margin-bottom: 40px;
   }
+
   .aboutMe__main-text {
     order: 1;
   }
+
   .aboutMe__title {
     font-size: 30px;
     line-height: 36px;
   }
+
   .aboutMe__title-old {
     margin-top: 20px;
   }
@@ -151,10 +169,24 @@
     padding-bottom: 70px;
     padding-top: 70px;
   }
+
   .aboutMe__main {
     width: calc(100% - 14px * 2);
   }
+  .aboutMe__title-old {
+    font-size: 11px;
+    line-height: 16px;
+  }
+
   .aboutMe__subtitle {
     margin-bottom: 40px;
+    width: 100%;
+    font-size: 11px;
+    line-height: 16px;
+  }
+
+  .aboutMe__title-section {
+    font-size: 18px;
+    line-height: 22px;
   }
 }

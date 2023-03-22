@@ -1,7 +1,10 @@
 .moviesgallery {
   width: 100%;
   background-color: #202020;
+  padding: 0;
   padding-top: 70px;
+  margin: 0;
+  border-style: none;
 }
 
 .moviesgallery__main {
@@ -19,7 +22,7 @@
 .card-movies {
   margin: 0;
   padding: 0;
-  overflow: hidden;
+  /* overflow: hidden; */
   list-style-type: none;
   background-color: #222222;
   box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.08);
@@ -36,8 +39,8 @@
   margin: 0;
   padding: 0;
   font-weight: 500;
-  font-size: 13px;
-  line-height: 16px;
+  font-size: 15px;
+  line-height: 18px;
   color: #fff;
   max-width: 260px;
 }
@@ -52,20 +55,18 @@
   margin: 0;
   padding: 0;
   font-weight: normal;
-  font-size: 11px;
-  line-height: 13px;
+  font-size: 13px;
+  line-height: 18px;
   color: #A0A0A0;
   margin-top: 6px;
 }
 
 .card-movies__main-title {
-  width: 100%;
+  width: 90%;
   display: flex;
-  margin-top: 14px;
-  margin-bottom: 14px;
+  margin: 14px 18px;  
   align-items: center;
   justify-content: space-between;
-  height: 32px;
 }
 
 .card-movies__btn {
@@ -145,7 +146,6 @@
   margin-top: 60px;
   cursor: pointer;
   transition: background-color .3s ease-in;
-
 }
 
 .moviesgallery__button-card-more:hover {
@@ -210,5 +210,12 @@
   .search__toggle-text {
     font-size: 11px;
     line-height: 18px;
+  }
+  .card-movies__main-title {
+    margin: 14px 14px;  
+  }
+
+  .moviesgallery__button-card-more {
+    width: 240px;
   }
 }
