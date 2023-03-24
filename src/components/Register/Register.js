@@ -5,6 +5,7 @@ import "./Register.css";
 
 function Register() {
   return (
+    <main>
     <div className="register">
       <form name="login" className="auth-form">
         <div className="auth-form__header">
@@ -48,6 +49,7 @@ function Register() {
         </p>
       </form>
     </div>
+    </main>
   );
 }
 

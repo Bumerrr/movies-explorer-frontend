@@ -10,6 +10,7 @@ function Profile() {
   return (
     <>
       <Header isLogined={true} />
+      <main>
       <section className="profile">
         <div className="profile__wrapper">
           <h2 className="profile__title">Привет, {name}!</h2>
@@ -42,6 +43,7 @@ function Profile() {
           </form>
         </div>
       </section>
+      </main>
     </>
   );
 }

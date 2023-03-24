@@ -28,7 +28,6 @@
   font-weight: 400;
   text-overflow: ellipsis;
   white-space: nowrap;
-  /* overflow: hidden; */
   margin-top: 5px;
 }
 

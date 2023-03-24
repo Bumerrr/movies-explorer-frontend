@@ -189,4 +189,7 @@
     font-size: 18px;
     line-height: 22px;
   }
+  .aboutMe__avatar {
+    width: 99%;
+  }
 }

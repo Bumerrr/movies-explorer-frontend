@@ -3,6 +3,7 @@ import "./Footer.css";
 
 function Footer () {
     return (
+        <footer>
         <section className="footer">
             <div className="footer__all-main">
                 <p className="footer__main-text">
@@ -28,6 +29,7 @@ function Footer () {
                 </div>
             </div>
         </section>
+        </footer>
     );
 };
 

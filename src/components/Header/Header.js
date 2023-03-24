@@ -5,6 +5,7 @@ import "./Header.css";
 
 function Header({ isLogined }) {
   return (
+    <header>
     <section className={"header" + (isLogined ? " header_type_isLogined" : "")}>
       <div className="header__container">
         <Link to="/" className="header__linked-logo">
@@ -17,6 +18,7 @@ function Header({ isLogined }) {
         />
       </div>
     </section>
+    </header>
   );
 }
 

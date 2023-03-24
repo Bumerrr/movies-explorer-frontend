@@ -22,7 +22,6 @@
 .card-movies {
   margin: 0;
   padding: 0;
-  /* overflow: hidden; */
   list-style-type: none;
   background-color: #222222;
   box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.08);
@@ -77,7 +76,8 @@
   line-height: 11px;
   width: 100px;
   height: 29px;
-  margin: 18px 36%;
+  display: block;
+  margin: 18px auto;
   padding: 0;
   border: none;
   background-color: #313131;
@@ -87,9 +87,10 @@
 }
 
 .card-movies__btn_type_saved {
+  display: block;
+  margin: 18px auto;
   width: 100px;
   height: 29px;
-  margin: 18px 36%;
   padding: 0;
   background-color: transparent;
   background-image: url(../../images/like-movie.svg);
@@ -99,7 +100,8 @@
 .card-movies__btn_type_delete {
   width: 100px;
   height: 29px;
-  margin: 18px 36%;
+  display: block;
+  margin: 18px auto;
   padding: 0;
   background-color: transparent;
   background-image: url(../../images/delete.svg);

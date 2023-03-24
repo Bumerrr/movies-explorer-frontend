@@ -15,8 +15,8 @@ function Portfolio() {
               <p className="portfolio__link_type_text">Статичный сайт</p>
               <img alt="стрелка" src={strelka} className="portfolio__link_type_image" />
             </a>
+            <p className="line"></p>
           </li>
-          <p className="line"></p>
           <li className="portfolio__item">
             <a className="portfolio__link" href="https://bumerrr.github.io/russian-travel/index.html"
               target="_blank"
@@ -24,8 +24,8 @@ function Portfolio() {
               <p className="portfolio__link_type_text">Адаптивный сайт</p>
               <img alt="стрелка" src={strelka} className="portfolio__link_type_image" />
             </a>
+            <p className="line"></p>
           </li>
-          <p className="line"></p>
           <li className="portfolio__item">
             <a className="portfolio__link" href="https://github.com/Bumerrr/react-mesto-api-full"
               target="_blank"
