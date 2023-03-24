@@ -1,0 +1,223 @@
+.moviesgallery {
+  width: 100%;
+  background-color: #202020;
+  padding: 0;
+  padding-top: 70px;
+  margin: 0;
+  border-style: none;
+}
+
+.moviesgallery__main {
+  margin: 0;
+  padding: 0;
+  width: calc(100% - 70px * 2);
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(360px, 360px));
+  column-gap: 28px;
+  row-gap: 32px;
+  justify-content: center;
+}
+
+.card-movies {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  background-color: #222222;
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.08);
+}
+
+.card-movies__image {
+  width: 100%;
+  display: block;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-movies__title {
+  margin: 0;
+  padding: 0;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  color: #fff;
+  max-width: 260px;
+}
+
+.card-movies__line {
+  width: 100%;
+  height: 1px;
+  background-color: #E8E8E8;
+}
+
+.card-movies__time {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 18px;
+  color: #A0A0A0;
+  margin-top: 6px;
+}
+
+.card-movies__main-title {
+  width: 90%;
+  display: flex;
+  margin: 14px 18px;  
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card-movies__btn {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 11px;
+  width: 100px;
+  height: 29px;
+  display: block;
+  margin: 18px auto;
+  padding: 0;
+  border: none;
+  background-color: #313131;
+  border-radius: 30px;
+  cursor: pointer;
+  color: #fff;
+}
+
+.card-movies__btn_type_saved {
+  display: block;
+  margin: 18px auto;
+  width: 100px;
+  height: 29px;
+  padding: 0;
+  background-color: transparent;
+  background-image: url(../../images/like-movie.svg);
+  cursor: pointer;
+  color: transparent;
+}
+.card-movies__btn_type_delete {
+  width: 100px;
+  height: 29px;
+  display: block;
+  margin: 18px auto;
+  padding: 0;
+  background-color: transparent;
+  background-image: url(../../images/delete.svg);
+  border: none;
+  cursor: pointer;
+  color: transparent;
+}
+
+.card-movies__button-like {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  border: none;
+  background-color: #F9F9F9;
+  margin: 0 auto;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+  transition: background-color .3s ease-in;
+}
+
+.card-movies__button-like:hover {
+  background-color: #e4e4e4;
+}
+
+.moviesgallery__main-button {
+  width: calc(100% - 70px * 2);
+  padding-bottom: 80px;
+  background-color: #202020;
+  margin: 0 auto;
+}
+
+.moviesgallery__button-card-more {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 320px;
+  height: 36px;
+  background-color: #202020;
+  color: #fff;
+  border: #424242 solid 1px;
+  border-radius: 5px;
+  margin-top: 60px;
+  cursor: pointer;
+  transition: background-color .3s ease-in;
+}
+
+.moviesgallery__button-card-more:hover {
+  background-color: #363535;
+}
+
+@media screen and (max-width: 990px) {
+  .moviesgallery__main {
+    width: calc(100% - 30px * 2);
+    grid-template-columns: repeat(auto-fit, minmax(339px, 339px));
+    column-gap: 30px;
+    row-gap: 30px;
+  }
+
+  .card-movies__image {
+    height: 190px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .moviesgallery__main {
+    width: calc(100% - 30px * 2);
+    grid-template-columns: repeat(auto-fit, minmax(339px, 339px));
+    column-gap: 30px;
+    row-gap: 30px;
+  }
+
+  .moviesgallery__main-button {
+    width: calc(100% - 30px * 2);
+  }
+
+  .card-movies__image {
+    height: 190px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .moviesgallery__main {
+    width: calc(100% - 10px * 2);
+    grid-template-columns: repeat(auto-fit, minmax(300px, 300px));
+  }
+
+  .moviesgallery__main-button {
+    width: calc(100% - 10px * 2);
+  }
+
+  .card-movies__image {
+    height: 168px;
+    margin-bottom: 15px;
+  }
+
+  .card-movies__title {
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  .card-movies__time {
+    font-size: 10px;
+    line-height: 12px;
+  }
+
+  .search__toggle-text {
+    font-size: 11px;
+    line-height: 18px;
+  }
+  .card-movies__main-title {
+    margin: 14px 14px;  
+  }
+
+  .moviesgallery__button-card-more {
+    width: 240px;
+  }
+}

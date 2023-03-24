@@ -1,0 +1,154 @@
+.techs {
+  width: 100%;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #272727;
+}
+
+.techs__main {
+  width: calc(100% - 70px * 2);
+  margin: 0 auto;
+}
+
+.techs__title-section {
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 27px;
+  letter-spacing: -0.04em;
+}
+
+.techs__title {
+  margin: 0;
+  margin-top: 90px;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 58px;
+  letter-spacing: -0.04em;
+  text-align: center;
+}
+
+.techs__subtitle {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 26px;
+  margin-bottom: 100px;
+  text-align: center;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: -0.04em;
+}
+
+.techs-cards {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+
+.techs-card__item {
+  width: 90px;
+  height: 60px;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  background-color: #303030;
+}
+
+.techs-card__item:last-child {
+  margin-right: 0;
+}
+
+.techs-card__text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+
+@media screen and (max-width: 768px) {
+  .techs {
+    padding-top: 70px;
+  }
+
+  .techs__main {
+    width: calc(100% - 50px * 2);
+  }
+
+  .techs__subtitle {
+    font-size: 12px;
+    line-height: 18px;
+    margin-bottom: 83px;
+  }
+
+  .techs-card__text {
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  .techs-card__item {
+    width: 84px;
+    height: 57px;
+  }
+
+  .techs__title {
+    margin-top: 80px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .techs {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+
+  .techs__main {
+    width: calc(100% - 18px * 2);
+  }
+
+  .techs__title-section {
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  .techs__title {
+    font-size: 30px;
+    line-height: 36px;
+    margin-top: 65px;
+  }
+
+  .techs__subtitle {
+    font-size: 11px;
+    line-height: 16px;
+    width: 285px;
+    margin-bottom: 50px;
+  }
+
+}
+
+@media screen and (max-width: 400px) {
+  .techs-cards {
+    display: grid;
+    margin: 0 71px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(4fr);
+    row-gap: 10px;
+    gap: 10px;
+    align-items: center;
+  }
+
+  .techs-card__item {
+    margin: 0;
+  }
+}
